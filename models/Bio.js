@@ -7,6 +7,7 @@ const bioSchema = new mongoose.Schema({
   occupation: { type: String },
   hobbies: [{ type: String }],
   socails: [{ type: String }],
+  sample: { type: String },
 });
 
 const Bio = mongoose.model("Bio", bioSchema);
